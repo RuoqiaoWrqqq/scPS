@@ -10,8 +10,8 @@
 ####   1. Single cells with corresponding scores for gene sets/pathways data matrix, where rows correspond to gene sets/pathways and columns correspond to cells.
 
 ### How to Apply scPS Function
-#### Seurat_data = Input Seurat object
-#### GeneSet = Gene set gmt file
+Seurat_data = Input Seurat object
+GeneSet = Gene set gmt file
 Result  =  scPS(Seurat_data,GeneSet) # calling scPS 
 
 ### libraries required
@@ -22,5 +22,7 @@ library(genefilter)
 All the raw data for the data simulation and comparative analysis can be found at the following link: 
 https://drive.google.com/drive/folders/1Gvp4ydnJbHZEDIxLjyt0xrQcbMziwDBF?usp=drive_link
 
-###     Authors:Ruoqiao Wang and Juilee Thakar
-###     Email:RuoQiao_Wang@URMC.Rochester.edu and juilee_thakar@urmc.rochester.edu
+### =======================================================================
+### Citation: https://academic.oup.com/nargab/article/6/3/lqae124/7770961
+### Contact: [RuoQiao_Wang@URMC.Rochester.edu](mailto:RuoQiao_Wang@URMC.Rochester.edu)
+### =======================================================================

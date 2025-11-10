@@ -9,7 +9,7 @@
 ###   Output:
 ####   1. Single cells with corresponding scores for gene sets/pathways data matrix, where rows correspond to gene sets/pathways and columns correspond to cells.
 
-### How to Apply scPS Function
+### Apply scPS Function
 Seurat_data = Input Seurat object
 GeneSet = Gene set gmt file
 Result  =  scPS(Seurat_data,GeneSet) # calling scPS 
